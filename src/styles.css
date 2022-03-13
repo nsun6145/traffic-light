@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  width: 350px;
+}
+
+#control-panel {
+  font-family: sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#traffic-lights {
+  height: 400px;
+  width: 150px;
+  background-color: #333;
+  border-radius: 40px;
+  padding: 5px 20px;
+}
